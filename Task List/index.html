@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task List</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome!</h1>
+        <p>Hi there! It's a pleasure to see you using our website.By using this website you can add/schedule your regular task,work Schedule etc.</p>
+    </header>
+    <hr>
+    <div class="container">
+        <form id="task_form">
+            <label for="">Enter Your task here:</label></br>
+            <input type="text" id="new_task" placeholder="New Task"></br>
+            <input type="submit" class="btn" value="Add Task">
+        </form>
+        <hr>
+        <h2>Your Tasks</h2>
+        <input type="text" id="task_filter" placeholder="Filter Task">
+        <ul id="tasks">
+           
+        </ul>
+        <button id="clear_task_btn">Clear Tasks</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
